@@ -23,7 +23,7 @@ Results after fine-tuning the model:
 
 - **Accuracy: 97%**
 <p align="center" style="margin-top: 20px; margin-bottom: 20px;">
-<img width="60%" src="https://github.com/ThuyTran102/LLM-Project/blob/main/images/result.png" alt="Outcome"></img>
+<img width="45%" src="https://github.com/ThuyTran102/LLM-Project/blob/main/images/result.png" alt="Outcome"></img>
 </p>
 
 > The pre-trained LLM without fine-tuning performs slightly better than classical models, showing the inherent power of such models in text understanding. However, the fine-tuned pre-trained LLM significantly outperforms all other models, reaching an accuracy of 97%. This highlights the importance of fine-tuning for domain-specific tasks, leveraging the extensive pre-training while adapting to the specific characteristics of the target dataset.
@@ -33,7 +33,7 @@ When fine-tuning a pre-trained language model, selecting the right hyperparamete
 
 1. **Learning Rate** (`learning_rate`):
 
--Value: 2e-5
+- Value: 2e-5
 - Importance: The learning rate controls how much the model weights are adjusted with respect to the loss gradient. A well-chosen learning rate ensures that the model converges efficiently without overshooting the optimal parameters. In this case, **2e-5** was found to be a good balance for stable and effective learning.
 
 2. **Batch Size** (`per_device_train_batch_size`, `per_device_eval_batch_size`):
