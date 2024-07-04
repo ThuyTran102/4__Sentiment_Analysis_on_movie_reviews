@@ -1,12 +1,12 @@
 # LLM Project
 # Sentiment Analysis on Movie Reviews
-<p align="center" style="margin-top: 20px; margin-bottom: 20px;">
-  <img width="40%" src="https://github.com/ThuyTran102/LLM-Project/blob/main/images/sentiment_purpose.jpg" alt="Outcome" style="border: 2px solid black;"></img>
-</p>
 
 ## Project Task
 This project involves performing sentiment analysis on movie reviews using a pre-trained language model. The goal is to classify each review as either positive or negative. The project includes fine-tuning a pre-trained model, evaluating its performance, optimizing it through hyperparameter tuning, and using it for inference on new, unseen data.
 
+<p align="center" style="margin-top: 20px; margin-bottom: 20px;">
+  <img width="70%" src="https://github.com/ThuyTran102/LLM-Project/blob/main/images/sentiment_purpose.png" alt="Outcome" style="border: 2px solid black;"></img>
+</p>
 
 
 ## Dataset
@@ -89,12 +89,12 @@ When fine-tuning a pre-trained language model, selecting the right hyperparamete
   <img width="80%" src="https://github.com/ThuyTran102/LLM-Project/blob/main/images/model_on_huggingface.png" alt="Outcome" style="border: 2px solid black;"></img>
 </p>
 
-### Inference 1:
+### Inference Example 1:
 <p align="center" style="margin-top: 20px; margin-bottom: 20px;">
-<img width="45%" src="https://github.com/ThuyTran102/LLM-Project/blob/main/images/test1.png" alt="Outcome"></img>
+<img width="50%" src="https://github.com/ThuyTran102/LLM-Project/blob/main/images/test1.png" alt="Outcome"></img>
 </p>
 
-### Inference 2:
+### Inference Example 2:
 <p align="center" style="margin-top: 20px; margin-bottom: 20px;">
-<img width="45%" src="https://github.com/ThuyTran102/LLM-Project/blob/main/images/test2.png" alt="Outcome"></img>
+<img width="50%" src="https://github.com/ThuyTran102/LLM-Project/blob/main/images/test2.png" alt="Outcome"></img>
 </p>
