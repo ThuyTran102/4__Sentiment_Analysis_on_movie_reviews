@@ -33,7 +33,7 @@ Results after fine-tuning the model:
 <img width="50%" src="https://github.com/ThuyTran102/LLM-Project/blob/main/images/result.png" alt="Outcome"></img>
 </p>
 
-> The pre-trained LLM without fine-tuning performs slightly better than classical models, showing the inherent power of such models in text understanding. However, the fine-tuned pre-trained LLM significantly outperforms all other models, reaching an accuracy of 97%. This highlights the importance of fine-tuning for domain-specific tasks, leveraging the extensive pre-training while adapting to the specific characteristics of the target dataset.
+> The pre-trained LLM without fine-tuning performs slightly better than classical models, showing the inherent power of such models in text understanding. However, the fine-tuned pre-trained LLM significantly outperforms all other models, reaching an accuracy of 98%. This highlights the importance of fine-tuning for domain-specific tasks, leveraging the extensive pre-training while adapting to the specific characteristics of the target dataset.
 
 ## Key Hyperparameters and their importance
 When fine-tuning a pre-trained language model, selecting the right hyperparameters is crucial for achieving optimal performance. The following hyperparameters were found to be most important and relevant during the optimization of the model:
