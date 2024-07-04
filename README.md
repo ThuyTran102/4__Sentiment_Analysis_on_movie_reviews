@@ -1,8 +1,7 @@
 # LLM Project
 # Sentiment Analysis on Movie Reviews
-- Link to Model on HuggingFace: [model](https://huggingface.co/ThuyTran102/LLM_projectt)
 <p align="center" style="margin-top: 20px; margin-bottom: 20px;">
-  <img width="20%" src="https://github.com/ThuyTran102/LLM-Project/blob/main/images/sentiment_example.png" alt="Outcome" style="border: 2px solid black;"></img>
+  <img width="40%" src="https://github.com/ThuyTran102/LLM-Project/blob/main/images/sentiment_purpose.jpg" alt="Outcome" style="border: 2px solid black;"></img>
 </p>
 
 ## Project Task
