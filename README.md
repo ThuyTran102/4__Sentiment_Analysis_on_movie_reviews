@@ -5,7 +5,7 @@
 This project involves performing sentiment analysis on movie reviews using a pre-trained language model. The goal is to classify each review as either positive or negative. The project includes fine-tuning a pre-trained model, evaluating its performance, optimizing it through hyperparameter tuning, and using it for inference on new, unseen data.
 
 <p align="center" style="margin-top: 20px; margin-bottom: 20px;">
-  <img width="70%" src="https://github.com/ThuyTran102/LLM-Project/blob/main/images/sentiment_purpose.png" alt="Outcome" style="border: 2px solid black;"></img>
+  <img width="60%" src="https://github.com/ThuyTran102/LLM-Project/blob/main/images/sentiment_purpose.png" alt="Outcome" style="border: 2px solid black;"></img>
 </p>
 
 
@@ -17,6 +17,7 @@ from datasets import load_dataset
 
 data = load_dataset('imdb')
 ```
+
 
 ## Pre-trained Model
 The pre-trained model selected for this project is **`distilbert-base-uncased-finetuned-sst-2-english`**. This model is a distilled version of BERT (Bidirectional Encoder Representations from Transformers) fine-tuned on the Stanford Sentiment Treebank (SST-2) dataset, which is specifically designed for sentiment analysis. DistilBERT is a smaller, faster, and lighter version of BERT, which retains 97% of BERT's language understanding capabilities while being 60% faster and 40% smaller. This makes it an excellent choice for sentiment analysis tasks where both efficiency and accuracy are important.
@@ -34,6 +35,7 @@ Results after fine-tuning the model:
 </p>
 
 > The pre-trained LLM without fine-tuning performs slightly better than classical models, showing the inherent power of such models in text understanding. However, the fine-tuned pre-trained LLM significantly outperforms all other models, reaching an accuracy of 98%. This highlights the importance of fine-tuning for domain-specific tasks, leveraging the extensive pre-training while adapting to the specific characteristics of the target dataset.
+
 
 ## Key Hyperparameters and their importance
 When fine-tuning a pre-trained language model, selecting the right hyperparameters is crucial for achieving optimal performance. The following hyperparameters were found to be most important and relevant during the optimization of the model:
@@ -83,7 +85,10 @@ When fine-tuning a pre-trained language model, selecting the right hyperparamete
 - Value: True
 - Importance: Automatically loading the best model at the end of training ensures that the final model used is the one that performed best on the validation set, thus providing the optimal results.
 
+
+
 ## Relevant Links
+For deployment, the model is hosted on HuggingFace, allowing for easy API integration for real-time sentiment analysis.
 - Link to Model on HuggingFace: [model](https://huggingface.co/ThuyTran102/LLM_projectt)
 <p align="center" style="margin-top: 20px; margin-bottom: 20px;">
   <img width="80%" src="https://github.com/ThuyTran102/LLM-Project/blob/main/images/model_on_huggingface.png" alt="Outcome" style="border: 2px solid black;"></img>
