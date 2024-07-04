@@ -1,5 +1,9 @@
 # LLM Project
 # Sentiment Analysis on Movie Reviews
+- Link to Model on HuggingFace: [model](https://huggingface.co/ThuyTran102/LLM_projectt)
+<p align="center" style="margin-top: 20px; margin-bottom: 20px;">
+  <img width="20%" src="https://github.com/ThuyTran102/LLM-Project/blob/main/images/sentiment_example.png" alt="Outcome" style="border: 2px solid black;"></img>
+</p>
 
 ## Project Task
 This project involves performing sentiment analysis on movie reviews using a pre-trained language model. The goal is to classify each review as either positive or negative. The project includes fine-tuning a pre-trained model, evaluating its performance, optimizing it through hyperparameter tuning, and using it for inference on new, unseen data.
@@ -83,14 +87,15 @@ When fine-tuning a pre-trained language model, selecting the right hyperparamete
 ## Relevant Links
 - Link to Model on HuggingFace: [model](https://huggingface.co/ThuyTran102/LLM_projectt)
 <p align="center" style="margin-top: 20px; margin-bottom: 20px;">
-<img width="50%" src="https://github.com/ThuyTran102/LLM-Project/blob/main/images/model_on_huggingface.png" alt="Outcome"></img>
+  <img width="80%" src="https://github.com/ThuyTran102/LLM-Project/blob/main/images/model_on_huggingface.png" alt="Outcome" style="border: 2px solid black;"></img>
 </p>
 
+### Inference 1:
 <p align="center" style="margin-top: 20px; margin-bottom: 20px;">
-<img width="50%" src="https://github.com/ThuyTran102/LLM-Project/blob/main/images/test1.png" alt="Outcome"></img>
+<img width="45%" src="https://github.com/ThuyTran102/LLM-Project/blob/main/images/test1.png" alt="Outcome"></img>
 </p>
 
-
+### Inference 2:
 <p align="center" style="margin-top: 20px; margin-bottom: 20px;">
-<img width="50%" src="https://github.com/ThuyTran102/LLM-Project/blob/main/images/test2.png" alt="Outcome"></img>
+<img width="45%" src="https://github.com/ThuyTran102/LLM-Project/blob/main/images/test2.png" alt="Outcome"></img>
 </p>
