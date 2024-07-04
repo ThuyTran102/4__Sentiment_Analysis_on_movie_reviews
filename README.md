@@ -89,7 +89,7 @@ When fine-tuning a pre-trained language model, selecting the right hyperparamete
 
 ## Relevant Links
 For deployment, the model is hosted on HuggingFace, allowing for easy API integration for real-time sentiment analysis.
-- Link to Model on HuggingFace: [model](https://huggingface.co/ThuyTran102/LLM_projectt)
+- Link to Model on HuggingFace: [model](https://huggingface.co/ThuyTran102/LLM_project)
 <p align="center" style="margin-top: 20px; margin-bottom: 20px;">
   <img width="80%" src="https://github.com/ThuyTran102/LLM-Project/blob/main/images/model_on_huggingface.png" alt="Outcome" style="border: 2px solid black;"></img>
 </p>
