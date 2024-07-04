@@ -1,7 +1,10 @@
 # LLM Project
+# Sentiment Analysis on Movie Reviews
 
 ## Project Task
 This project involves performing sentiment analysis on movie reviews using a pre-trained language model. The goal is to classify each review as either positive or negative. The project includes fine-tuning a pre-trained model, evaluating its performance, optimizing it through hyperparameter tuning, and using it for inference on new, unseen data.
+
+
 
 ## Dataset
 The dataset used for this project is the IMDb dataset, which is a collection of 50,000 movie reviews labeled as either positive or negative. It is available through the Hugging Face datasets library:
@@ -13,7 +16,8 @@ data = load_dataset('imdb')
 ```
 
 ## Pre-trained Model
-The pre-trained model selected for this project is **`distilbert-base-uncased-finetuned-sst-2-english`**. This model is a distilled version of BERT (Bidirectional Encoder Representations from Transformers) fine-tuned on the Stanford Sentiment Treebank (SST-2) dataset, which is specifically designed for sentiment analysis.
+The pre-trained model selected for this project is **`distilbert-base-uncased-finetuned-sst-2-english`**. This model is a distilled version of BERT (Bidirectional Encoder Representations from Transformers) fine-tuned on the Stanford Sentiment Treebank (SST-2) dataset, which is specifically designed for sentiment analysis. DistilBERT is a smaller, faster, and lighter version of BERT, which retains 97% of BERT's language understanding capabilities while being 60% faster and 40% smaller. This makes it an excellent choice for sentiment analysis tasks where both efficiency and accuracy are important.
+
 
 
 ## Performance Metrics
@@ -21,9 +25,9 @@ The performance of the model is evaluated using **`accuracy`** metric, which is 
 
 Results after fine-tuning the model:
 
-- **Accuracy: 97%**
+- **Accuracy: 98%**
 <p align="center" style="margin-top: 20px; margin-bottom: 20px;">
-<img width="45%" src="https://github.com/ThuyTran102/LLM-Project/blob/main/images/result.png" alt="Outcome"></img>
+<img width="50%" src="https://github.com/ThuyTran102/LLM-Project/blob/main/images/result.png" alt="Outcome"></img>
 </p>
 
 > The pre-trained LLM without fine-tuning performs slightly better than classical models, showing the inherent power of such models in text understanding. However, the fine-tuned pre-trained LLM significantly outperforms all other models, reaching an accuracy of 97%. This highlights the importance of fine-tuning for domain-specific tasks, leveraging the extensive pre-training while adapting to the specific characteristics of the target dataset.
@@ -76,3 +80,17 @@ When fine-tuning a pre-trained language model, selecting the right hyperparamete
 - Value: True
 - Importance: Automatically loading the best model at the end of training ensures that the final model used is the one that performed best on the validation set, thus providing the optimal results.
 
+## Relevant Links
+- Link to Model on HuggingFace: [model](https://huggingface.co/ThuyTran102/LLM_projectt)
+<p align="center" style="margin-top: 20px; margin-bottom: 20px;">
+<img width="50%" src="https://github.com/ThuyTran102/LLM-Project/blob/main/images/model_on_huggingface.png" alt="Outcome"></img>
+</p>
+
+<p align="center" style="margin-top: 20px; margin-bottom: 20px;">
+<img width="50%" src="https://github.com/ThuyTran102/LLM-Project/blob/main/images/test1.png" alt="Outcome"></img>
+</p>
+
+
+<p align="center" style="margin-top: 20px; margin-bottom: 20px;">
+<img width="50%" src="https://github.com/ThuyTran102/LLM-Project/blob/main/images/test2.png" alt="Outcome"></img>
+</p>
