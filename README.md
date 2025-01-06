@@ -1,8 +1,9 @@
-# LLM Project
 # Sentiment Analysis on Movie Reviews
 
 ## Project Task
-This project involves performing sentiment analysis on movie reviews using a pre-trained language model. The goal is to classify each review as either positive or negative. The project includes fine-tuning a pre-trained model, evaluating its performance, optimizing it through hyperparameter tuning, and using it for inference on new, unseen data.
+- This project involves performing sentiment analysis on movie reviews using a pre-trained language model.
+- The goal is to process and analyze human language data to classify each review as either positive or negative.
+- The project includes fine-tuning a pre-trained model, evaluating its performance, optimizing it through hyperparameter tuning, and using it for inference on new, unseen data.
 
 <p align="center" style="margin-top: 20px; margin-bottom: 20px;">
   <img width="60%" src="https://github.com/ThuyTran102/LLM-Project/blob/main/images/sentiment_purpose.png" alt="Outcome" style="border: 2px solid black;"></img>
